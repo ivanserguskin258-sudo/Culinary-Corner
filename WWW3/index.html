@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Culinary Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="container">
+        <div class="burger" id="burgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">Culinary corner</div>
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about us">О нас</a></li>
+                <li><a href="#galleria">Галерея</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Сменить тему">🌙</button>
+    </div>
+    <div id="menuOverlay" class="menu-overlay"></div>
+</header>
+
+<section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Готовьте с удовольствием</h1>
+        <p>Откройте для себя простые и вкусные рецепты на каждый день</p>
+        <a href="#menu" class="btn">Смотреть меню</a>
+    </div>
+</section>
+
+<section class="about" id="about us">
+    <div class="about-container">
+        <h2>О проекте</h2>
+        <p>
+            Мы собираем лучшие рецепты со всего света, проверенные и адаптированные для 
+            домашней кухни. Наша цель — вдохновлять вас на кулинарные эксперименты и помогать 
+            готовить быстро и вкусно. Все рецепты сопровождаются пошаговыми инструкциями и 
+            фотографиями. Присоединяйтесь к нашему кулинарному сообществу!
+        </p>
+    </div>
+</section>
+
+<section class="gallery" id="galleria">
+    <div class="gallery-item">
+        <img src="https://avatars.mds.yandex.net/i?id=dd6cbed1869c9368054943eddb1f3176_l-12184902-images-thumbs&n=13" alt="кулинария">
+        <div class="text-overlay">
+            <p>Посмотрите на привычные блюда по-новому добавив в них щепотку экзотики и влюбитесь в них заново с нашими идеями.</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/9f/9f/65/9f9f65c682ca3cbaeb6896efb77b5dfc.jpg" alt="ужин">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/chicken-caesar-with-vegetables-top-view_140725-4535.jpg?semt=ais_hybrid&w=740&q=80" alt="салат">
+        <div class="text-overlay bottom-right">
+            <p>Тот самый вкус, но с секретом!</p>
+        </div>
+    </div>
+</section>
+
+<section class="menu-section" id="menu">
+    <h2>Меню</h2>
+    <div class="menu-grid">
+        <a href="#" class="menu-card">
+            <img src="https://e3.edimdoma.ru/system/images/contents/0000/8962/content_big/AdobeStock_287655157.jpg?1768912682" alt="завтрак">
+            <div class="card-label">Завтрак</div>
+        </a>
+        <a href="#" class="menu-card">
+            <img src="https://nypost.com/wp-content/uploads/sites/2/2024/07/delicious-buddha-bowl-grilled-chicken-85592883.jpg?resize=878" alt="обед">
+            <div class="card-label">Обед</div>
+        </a>
+        <a href="#" class="menu-card">
+            <img src="https://images.news.ru/2025/09/17/tnzNU2rbxYq2KUf97Q48jmCTQpLXbCko9nx804CQ_780.png" alt="ужин">
+            <div class="card-label">Ужин</div>
+        </a>
+        <a href="#" class="menu-card">
+            <img src="https://img.freepik.com/premium-photo/healthy-salad-bowl-with-quinoa-tomatoes-chicken-avocado-cucumber-green-peas_259258-347.jpg?semt=ais_hybrid" alt="здоровая еда">
+            <div class="card-label">Здоровая еда</div>
+        </a>
+        <a href="#" class="menu-card">
+            <img src="https://avatars.mds.yandex.net/i?id=407c63d7a3b85c24c121adaef847a5a4_l-5296066-images-thumbs&n=13" alt="закуски">
+            <div class="card-label">Закуски</div>
+        </a>
+        <a href="#" class="menu-card">
+            <img src="https://i.kafushka.ru/i/b4/12/b412e9cad4aba06a17f33f3c0a61eb2c.jpg" alt="десерты">
+            <div class="card-label">Десерты</div>
+        </a>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h2 class="footer-logo">Culinary corner</h2>
+            <p>
+                Наш сайт — это ваш личный кулинарный помощник, который решает главную проблему: 
+                что сегодня приготовить? Мы помогаем экономить время, предлагая только рабочие 
+                рецепты с пошаговыми фото и ценными советами. У нас вы легко подберете блюдо под 
+                любой бюджет и наличие продуктов в холодильнике. Готовьте с нами просто, быстро и всегда вкусно!
+            </p>
+        </div>
+        <div class="footer-contacts" id="contact">
+            <h3>Контакты</h3>
+            <ul>
+                <li>Москва, ул. Вкусная, д. 12</li>
+                <li><a href="tel:+79991234567">+7(999) 123 45 67</a></li>
+                <li><a href="mailto:recipes@cook.ru">recipes@cook.ru</a></li>
+                <li>Ежедневно с 8:00 до 22:00</li>
+            </ul>
+            <button class="feedback-btn" id="openModalBtn">✉️ Написать нам</button>
+        </div>
+    </div>
+</footer>
+<div class="copyright-bar">
+    &copy; 2026 Culinary corner.
+</div>
+
+<div id="feedbackModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Обратная связь</h2>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label>Ваше имя</label>
+                <input type="text" id="userName" placeholder="Иван Иванов" required>
+            </div>
+            <div class="form-group">
+                <label>Телефон</label>
+                <input type="tel" id="userPhone" placeholder="+7 999 123-45-67" required>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="userEmail" placeholder="cooking@mail.ru" required>
+            </div>
+            <button type="submit" class="submit-feedback">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
